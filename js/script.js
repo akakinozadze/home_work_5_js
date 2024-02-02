@@ -42,14 +42,16 @@
 // });
 // console.log(array6);
 
+//! 5 //
 
-//! 5 // 
-
-let array6 = "12345"
-.split ("")
-.reduce(function(sum,numbers){
-    return sum + Number(numbers);
-},0);
+let array6 = "12345".split("").reduce(function (sum, number) {
+  return sum + Number(number);
+}, 0);
 console.log(array6);
 
+//! 6 //
 
+let array7 = [1, 4, 45, 76, 99, 123].reduce(function (sum, number) {
+  return sum + number;
+}, 0);
+console.log(array7);
