@@ -37,7 +37,19 @@
 
 //! 4 //
 
-let array6 = [-1, -2, -3, 4].some(function (numbers) {
-  return numbers > 0;
-});
+// let array6 = [-1, -2, -3, 4].some(function (numbers) {
+//   return numbers > 0;
+// });
+// console.log(array6);
+
+
+//! 5 // 
+
+let array6 = "12345"
+.split ("")
+.reduce(function(sum,numbers){
+    return sum + Number(numbers);
+},0);
 console.log(array6);
+
+
