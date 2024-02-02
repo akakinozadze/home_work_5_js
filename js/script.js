@@ -23,3 +23,14 @@ newElement2.innerText="image title ";
 newElement2.style.color = "red";
 newElement2.style.fontSize = "30px";
 
+//! 3 //
+
+let newElement3 = document.querySelectorAll(".box2");
+
+newElement3.forEach(function(item){
+    let element1 = document.createElement("p");
+    element1.classList.add("text2");
+    element1.textContent = "hello";
+    
+    item.appendChild(element1);
+})
