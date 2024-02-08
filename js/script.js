@@ -3,10 +3,17 @@
 //! 1 //
 
 // let link = "https://google.com";
+// let result1 = link.includes("https://");
+// let fnc = (y) => {
+//   if (y === result1 ){
+//     return "კი მოიცავს";
+//   } return "არ მოიცავს";
 
-// function
+// }
+// let result = fnc(result1)
+// console.log(result);
 
-//! 2 //
+// //! 2 //
 
 // let newElement = document.createElement("img");
 // newElement.classList.add("wraper");
@@ -41,17 +48,29 @@
 //   return numbers > 0;
 // });
 // console.log(array6);
+// ..... \ ეს ვარიანტი შეიძლება ქვემოთ რაც მაქვს აღწერილი იმის შესამოწმებლად მასივსი მაქვს თუ არა 
+// დადებიტი რიცხვი ?
+// let array00 = [-1, -2, -3, 4].some((item) => {
+//     if (item > 0){
+//      console.log(item);
+//     }
+//  })
+ 
 
 //! 5 //
 
-let array6 = "12345".split("").reduce(function (sum, number) {
-  return sum + Number(number);
-}, 0);
-console.log(array6);
+// let array6 = "12345".split("").reduce(function (sum, number) {
+//   return sum + Number(number);
+// }, 0);
+// console.log(array6);
 
-//! 6 //
+// //! 6 //
 
-let array7 = [1, 4, 45, 76, 99, 123].reduce(function (sum, number) {
-  return sum + number;
-}, 0);
-console.log(array7);
+// let array7 = [1, 4, 45, 76, 99, 123].reduce(function (sum, number) {
+//   return sum + number;
+// }, 0);
+// console.log(array7);
+
+
+
+
